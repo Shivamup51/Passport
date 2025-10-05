@@ -235,7 +235,10 @@ export default function Home() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <h1 className="text-2xl font-bold text-blue-600">Online passport service consultant</h1>
+                <h1 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-blue-600">
+                  <span className="hidden sm:inline">Online passport service consultant</span>
+                  <span className="sm:hidden">Passport Consultant</span>
+                </h1>
               </div>
             </div>
             
