@@ -24,14 +24,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://your-domain.com'), // Replace with your actual domain
+  metadataBase: new URL('https://passport-ten-mocha.vercel.app'), // Replace with your actual domain
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: "Online Passport Service Consultant - Ghaziabad",
     description: "Professional passport services in Ghaziabad. Expert consultation for passport applications, renewals, and documentation.",
-    url: 'https://your-domain.com', // Replace with your actual domain
+    url: 'https://passport-ten-mocha.vercel.app', // Replace with your actual domain
     siteName: 'Online Passport Service Consultant',
     locale: 'en_IN',
     type: 'website',
@@ -75,7 +75,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.png" type="image/png" />
-        <link rel="canonical" href="https://your-domain.com" />
+        <link rel="canonical" href="https://passport-ten-mocha.vercel.app" />
         <meta name="geo.region" content="IN-UP" />
         <meta name="geo.placename" content="Ghaziabad" />
         <meta name="geo.position" content="28.6692;77.4538" />
@@ -88,7 +88,7 @@ export default function RootLayout({
               "@type": "LocalBusiness",
               "name": "Online Passport Service Consultant",
               "description": "Professional passport services in Ghaziabad",
-              "url": "https://your-domain.com",
+              "url": "https://passport-ten-mocha.vercel.app",
               "telephone": "+91-98184-31860",
               "address": {
                 "@type": "PostalAddress",
