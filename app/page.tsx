@@ -59,119 +59,119 @@ export default function Home() {
       title: "New Passport Application",
       description: "Complete assistance for first-time passport applications with document verification and form filling.",
       features: ["Document verification", "Form assistance", "Photo guidance", "Status tracking"],
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&crop=center"
+      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&crop=center&auto=format"
     },
     {
-      icon: <Globe className="h-8 w-8" />,
+      icon: <Clock className="h-8 w-8" />,
       title: "Passport Renewal",
       description: "Quick and hassle-free passport renewal services for expired or expiring passports.",
       features: ["Express processing", "Document collection", "Status updates", "Delivery assistance"],
-      image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&crop=center"
+      image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop&crop=center&auto=format"
     },
     {
       icon: <Shield className="h-8 w-8" />,
       title: "Lost/Stolen Passport",
       description: "Emergency assistance for lost or stolen passport replacement with police report guidance.",
       features: ["Police report help", "Emergency processing", "Documentation support", "Priority handling"],
-      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=400&h=300&fit=crop&crop=center"
+      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=400&h=300&fit=crop&crop=center&auto=format"
     },
     {
       icon: <Zap className="h-8 w-8" />,
       title: "Tatkal Passport",
       description: "Express passport services for urgent travel requirements with same-day processing.",
       features: ["Same-day processing", "Urgent documentation", "Express delivery", "24/7 support"],
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&crop=center"
+      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&crop=center&auto=format"
     },
     {
       icon: <Camera className="h-8 w-8" />,
       title: "Passport Photo Service",
       description: "Professional passport photo services meeting all government specifications and requirements.",
       features: ["Government approved", "Digital & print", "Multiple copies", "Same day service"],
-      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=400&h=300&fit=crop&crop=center"
+      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=400&h=300&fit=crop&crop=center&auto=format"
     },
     {
       icon: <FileCheck className="h-8 w-8" />,
       title: "Document Verification",
       description: "Comprehensive document verification and authentication services for passport applications.",
       features: ["Birth certificate", "Address proof", "Identity verification", "Notarization"],
-      image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=400&h=300&fit=crop&crop=center"
+      image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=400&h=300&fit=crop&crop=center&auto=format"
     },
     {
       icon: <Plane className="h-8 w-8" />,
       title: "Visa Assistance",
       description: "Complete visa application support for various countries with documentation and guidance.",
       features: ["Multiple countries", "Document preparation", "Application filing", "Interview guidance"],
-      image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&h=300&fit=crop&crop=center"
+      image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&h=300&fit=crop&crop=center&auto=format"
     },
     {
       icon: <User className="h-8 w-8" />,
       title: "Name Change in Passport",
       description: "Professional assistance for name changes in passport due to marriage, divorce, or other reasons.",
       features: ["Marriage certificate", "Divorce decree", "Legal documentation", "Fast processing"],
-      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=400&h=300&fit=crop&crop=center"
+      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=400&h=300&fit=crop&crop=center&auto=format"
     },
     {
       icon: <Building className="h-8 w-8" />,
       title: "Address Change in Passport",
       description: "Quick and easy address change services in your existing passport with proper documentation.",
       features: ["Address proof", "Form assistance", "Verification support", "Express service"],
-      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&h=300&fit=crop&crop=center"
+      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&h=300&fit=crop&crop=center&auto=format"
     },
     {
       icon: <Download className="h-8 w-8" />,
       title: "Passport Status Tracking",
       description: "Real-time passport application status tracking and regular updates on your application progress.",
       features: ["Real-time updates", "SMS notifications", "Email alerts", "24/7 tracking"],
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&crop=center"
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&crop=center&auto=format"
     },
     {
       icon: <CreditCard className="h-8 w-8" />,
       title: "Fee Payment Assistance",
       description: "Complete assistance with passport fee payments and government charges for all services.",
       features: ["Online payment", "Fee calculation", "Receipt generation", "Payment tracking"],
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop&crop=center"
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop&crop=center&auto=format"
     },
     {
       icon: <Search className="h-8 w-8" />,
       title: "Passport Information Services",
       description: "Comprehensive information and guidance about passport rules, regulations, and procedures.",
       features: ["Rule clarification", "Process guidance", "FAQ support", "Expert consultation"],
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&crop=center"
+      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&crop=center&auto=format"
     },
     {
       icon: <IdCard className="h-8 w-8" />,
       title: "PAN Card Services",
       description: "Complete PAN card application, correction, and reprint services with fast processing.",
       features: ["New PAN application", "PAN correction", "PAN reprint", "Status tracking"],
-      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=400&h=300&fit=crop&crop=center"
+      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=400&h=300&fit=crop&crop=center&auto=format"
     },
     {
       icon: <Car className="h-8 w-8" />,
       title: "Driving License Services",
       description: "Professional assistance for driving license applications, renewals, and related services.",
       features: ["New license", "License renewal", "Duplicate license", "Address change"],
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&crop=center"
+      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&crop=center&auto=format"
     },
     {
       icon: <HeartIcon className="h-8 w-8" />,
       title: "Marriage Certification",
       description: "Complete marriage certificate services including registration and documentation support.",
       features: ["Marriage registration", "Certificate issuance", "Documentation help", "Legal support"],
-      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=400&h=300&fit=crop&crop=center"
+      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=400&h=300&fit=crop&crop=center&auto=format"
     },
     {
       icon: <Newspaper className="h-8 w-8" />,
       title: "Newspaper Advertisement",
       description: "Professional newspaper advertisement services for name change, lost documents, and legal notices.",
       features: ["Name change ads", "Lost document ads", "Legal notices", "Multiple newspapers"],
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&crop=center"
+      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&crop=center&auto=format"
     },
     {
       icon: <CardIcon className="h-8 w-8" />,
       title: "Online Aadhar Services",
       description: "Complete Aadhar card services including enrollment, updates, and corrections.",
       features: ["Aadhar enrollment", "Address update", "Name correction", "Biometric update"],
-      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=400&h=300&fit=crop&crop=center"
+      image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=400&h=300&fit=crop&crop=center&auto=format"
     }
   ];
 
@@ -376,8 +376,12 @@ export default function Home() {
                     src={service.image}
                     alt={service.title}
                     width={400}
-                    height={192}
+                    height={300}
                     className="w-full h-48 object-cover"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.src = `https://via.placeholder.com/400x300/3b82f6/ffffff?text=${encodeURIComponent(service.title)}`;
+                    }}
                   />
                   <div className="absolute top-4 right-4">
                     <div className="bg-white/90 backdrop-blur-sm rounded-full p-2">
@@ -526,6 +530,10 @@ export default function Home() {
                       width={60}
                       height={60}
                       className="w-15 h-15 rounded-full object-cover"
+                      onError={(e) => {
+                        const target = e.target as HTMLImageElement;
+                        target.src = `https://via.placeholder.com/60x60/3b82f6/ffffff?text=${testimonial.name.charAt(0)}`;
+                      }}
                     />
                     <div className="flex-1">
                       <div className="flex items-center mb-1">
