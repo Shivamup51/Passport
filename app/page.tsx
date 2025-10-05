@@ -1,13 +1,12 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { 
   Phone, 
-  Mail, 
   MapPin, 
   Clock, 
   CheckCircle, 
@@ -29,12 +28,7 @@ import {
   Plane,
   Building,
   FileCheck,
-  Timer,
-  Lock,
   Download,
-  Upload,
-  Edit,
-  Copy,
   Search,
   IdCard,
   Car,
@@ -378,9 +372,11 @@ export default function Home() {
             {services.map((service, index) => (
               <Card key={index} className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden">
                 <div className="relative">
-                  <img
+                  <Image
                     src={service.image}
                     alt={service.title}
+                    width={400}
+                    height={192}
                     className="w-full h-48 object-cover"
                   />
                   <div className="absolute top-4 right-4">
@@ -515,7 +511,7 @@ export default function Home() {
               What Our Customers Say About Us
             </h2>
             <p className="text-xl text-gray-600">
-              Don't just take our word for it - hear from our satisfied customers
+              Don&apos;t just take our word for it - hear from our satisfied customers
             </p>
           </div>
 
@@ -524,10 +520,12 @@ export default function Home() {
               <Card key={index} className="hover:shadow-lg transition-shadow duration-300">
                 <CardContent className="pt-6">
                   <div className="flex items-center mb-4">
-                    <img
+                    <Image
                       src={testimonial.image}
                       alt={testimonial.name}
-                      className="w-12 h-12 rounded-full mr-4 object-cover"
+                      width={60}
+                      height={60}
+                      className="w-15 h-15 rounded-full object-cover"
                     />
                     <div className="flex-1">
                       <div className="flex items-center mb-1">
@@ -539,7 +537,7 @@ export default function Home() {
                       <p className="text-sm text-gray-500">{testimonial.location}</p>
                     </div>
                   </div>
-                  <p className="text-gray-600 italic">"{testimonial.text}"</p>
+                  <p className="text-gray-600 italic">&ldquo;{testimonial.text}&rdquo;</p>
                 </CardContent>
               </Card>
             ))}
