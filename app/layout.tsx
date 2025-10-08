@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'your-google-verification-code', // Add your Google Search Console verification code
+    google: 'AygWqCOzMODnVL_pbgQYO3dtEbR3cUg5QHOcnXLRwQw', // Add your Google Search Console verification code
   },
 };
 
@@ -82,6 +82,9 @@ export default function RootLayout({
         <meta name="geo.placename" content="Ghaziabad, Noida, Indirapuram" />
         <meta name="geo.position" content="28.6692;77.4538" />
         <meta name="ICBM" content="28.6692, 77.4538" />
+        
+        {/* Google Search Console Verification */}
+        <meta name="google-site-verification" content="AygWqCOzMODnVL_pbgQYO3dtEbR3cUg5QHOcnXLRwQw" />
         
         {/* Local Business Schema */}
         <script

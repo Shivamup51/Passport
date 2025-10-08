@@ -761,6 +761,100 @@ export default function Home() {
           WhatsApp
         </Button>
       </div>
+
+      {/* Local SEO Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Passport Services Near You
+            </h2>
+            <p className="text-xl text-gray-600">
+              Professional passport assistance in your area
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <Card className="text-center p-6">
+              <CardHeader>
+                <CardTitle className="text-2xl text-blue-600">Ghaziabad</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 mb-4">
+                  Expert passport services in Ghaziabad with same-day processing and 
+                  professional consultation.
+                </p>
+                <ul className="text-left space-y-2">
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    New Passport Application
+                  </li>
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Passport Renewal
+                  </li>
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Tatkal Passport
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center p-6">
+              <CardHeader>
+                <CardTitle className="text-2xl text-blue-600">Noida</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 mb-4">
+                  Fast and reliable passport services in Noida with expert guidance 
+                  and quick turnaround.
+                </p>
+                <ul className="text-left space-y-2">
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Document Verification
+                  </li>
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Name Change Services
+                  </li>
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Address Change
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center p-6">
+              <CardHeader>
+                <CardTitle className="text-2xl text-blue-600">Indirapuram</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 mb-4">
+                  Comprehensive passport services in Indirapuram with personalized 
+                  assistance and professional support.
+                </p>
+                <ul className="text-left space-y-2">
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Lost Passport Replacement
+                  </li>
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Passport Photo Service
+                  </li>
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Visa Assistance
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
