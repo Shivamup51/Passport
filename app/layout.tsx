@@ -88,6 +88,23 @@ export default function RootLayout({
         />
         {/* End Google Tag Manager */}
         
+        {/* Google Analytics 4 */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-NSJQTZ7FL8"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-NSJQTZ7FL8');
+            `,
+          }}
+        />
+        {/* End Google Analytics 4 */}
+        
         <link rel="icon" href="/favicon.png" type="image/png" />
         <link rel="canonical" href="https://passportconnect.in" />
         
