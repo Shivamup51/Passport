@@ -13,42 +13,42 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Online Passport Service Consultant - Ghaziabad | Fast & Reliable Passport Services",
-  description: "Professional passport services in Ghaziabad. Expert consultation for passport applications, renewals, and documentation. Located in Shastri Nagar, Ghaziabad. Call +91 98184 31860",
-  keywords: "passport service, passport consultant, Ghaziabad passport, Shastri Nagar passport, passport application, passport renewal, passport documentation, online passport service, passport help, Ghaziabad passport office",
-  authors: [{ name: "Online Passport Service Consultant" }],
-  creator: "Online Passport Service Consultant",
-  publisher: "Online Passport Service Consultant",
+  title: "Passport Seva in Ghaziabad | Passport Services in Noida & Indirapuram",
+  description: "Apply for passport services in Ghaziabad, Noida, and Indirapuram. Fast and reliable online passport assistance by Passport Connect. Call us today!",
+  keywords: "passport seva ghaziabad, passport service noida, passport in indirapuram, passport connect, passport consultant ghaziabad, passport office noida, passport services indirapuram, online passport application ghaziabad, passport renewal noida, passport documentation indirapuram",
+  authors: [{ name: "Passport Connect" }],
+  creator: "Passport Connect",
+  publisher: "Passport Connect",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://passport-ten-mocha.vercel.app'), // Replace with your actual domain
+  metadataBase: new URL('https://passportconnect.in'), // Update with your actual domain
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: "Online Passport Service Consultant - Ghaziabad",
-    description: "Professional passport services in Ghaziabad. Expert consultation for passport applications, renewals, and documentation.",
-    url: 'https://passport-ten-mocha.vercel.app', // Replace with your actual domain
-    siteName: 'Online Passport Service Consultant',
+    title: "Passport Seva in Ghaziabad | Passport Services in Noida & Indirapuram",
+    description: "Apply for passport services in Ghaziabad, Noida, and Indirapuram. Fast and reliable online passport assistance by Passport Connect.",
+    url: 'https://passportconnect.in',
+    siteName: 'Passport Connect',
     locale: 'en_IN',
     type: 'website',
     images: [
       {
-        url: '/og-image.jpg', // You can add an OG image later
+        url: '/logo.png',
         width: 1200,
         height: 630,
-        alt: 'Online Passport Service Consultant',
+        alt: 'Passport Connect - Passport Services in Ghaziabad, Noida & Indirapuram',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Online Passport Service Consultant - Ghaziabad",
-    description: "Professional passport services in Ghaziabad. Expert consultation for passport applications, renewals, and documentation.",
-    images: ['/og-image.jpg'], // You can add a Twitter image later
+    title: "Passport Seva in Ghaziabad | Passport Services in Noida & Indirapuram",
+    description: "Apply for passport services in Ghaziabad, Noida, and Indirapuram. Fast and reliable online passport assistance by Passport Connect.",
+    images: ['/logo.png'],
   },
   robots: {
     index: true,
@@ -75,43 +75,76 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.png" type="image/png" />
-        <link rel="canonical" href="https://passport-ten-mocha.vercel.app" />
+        <link rel="canonical" href="https://passportconnect.in" />
+        
+        {/* Geo Location Meta Tags */}
         <meta name="geo.region" content="IN-UP" />
-        <meta name="geo.placename" content="Ghaziabad" />
+        <meta name="geo.placename" content="Ghaziabad, Noida, Indirapuram" />
         <meta name="geo.position" content="28.6692;77.4538" />
         <meta name="ICBM" content="28.6692, 77.4538" />
+        
+        {/* Local Business Schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              "name": "Online Passport Service Consultant",
-              "description": "Professional passport services in Ghaziabad",
-              "url": "https://passport-ten-mocha.vercel.app",
-              "telephone": "+91-98184-31860",
+              "name": "Passport Connect",
+              "image": "https://passportconnect.in/logo.png",
+              "url": "https://passportconnect.in",
+              "telephone": "+91 9310469634",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "SC 125 Ground Floor",
-                "addressLocality": "Shastri Nagar",
-                "addressRegion": "Ghaziabad",
+                "streetAddress": "Indirapuram",
+                "addressLocality": "Ghaziabad",
+                "addressRegion": "UP",
+                "postalCode": "201014",
                 "addressCountry": "IN"
               },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 28.6692,
-                "longitude": 77.4538
-              },
-              "openingHours": "Mo-Sa 09:00-18:00",
-              "priceRange": "$$",
-              "serviceArea": {
-                "@type": "GeoCircle",
-                "geoMidpoint": {
-                  "@type": "GeoCoordinates",
-                  "latitude": 28.6692,
-                  "longitude": 77.4538
+              "priceRange": "₹₹",
+              "openingHours": "Mo-Sa 10:00-18:00",
+              "description": "Professional passport services in Ghaziabad, Noida, and Indirapuram",
+              "serviceArea": [
+                {
+                  "@type": "City",
+                  "name": "Ghaziabad"
                 },
-                "geoRadius": "50000"
+                {
+                  "@type": "City", 
+                  "name": "Noida"
+                },
+                {
+                  "@type": "City",
+                  "name": "Indirapuram"
+                }
+              ],
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Passport Services",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "New Passport Application"
+                    }
+                  },
+                  {
+                    "@type": "Offer", 
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Passport Renewal"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service", 
+                      "name": "Tatkal Passport"
+                    }
+                  }
+                ]
               }
             })
           }}

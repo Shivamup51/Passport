@@ -236,8 +236,8 @@ export default function Home() {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <h1 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-blue-600">
-                  <span className="hidden sm:inline">Online passport service consultant</span>
-                  <span className="sm:hidden">Passport Consultant</span>
+                  <span className="hidden sm:inline">Passport Connect</span>
+                  <span className="sm:hidden">Passport Connect</span>
                 </h1>
               </div>
             </div>
@@ -313,12 +313,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Online Passport Service Consultant
-              <span className="block text-blue-200">in Ghaziabad</span>
+              Passport Seva in Ghaziabad
+              <span className="block text-blue-200">Passport Services in Noida & Indirapuram</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
-              Expert consultation for passport applications, renewals, and documentation. 
-              Fast, reliable, and hassle-free services in Shastri Nagar, Ghaziabad.
+              Fast and reliable passport services in Ghaziabad, Noida, and Indirapuram. 
+              Expert consultation for passport applications, renewals, and documentation by Passport Connect.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button 
@@ -650,7 +650,7 @@ export default function Home() {
                       allowFullScreen
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
-                      title="Online passport service consultant Location"
+                      title="Passport Connect Location - Ghaziabad, Noida, Indirapuram"
                     ></iframe>
                   </div>
                   <div className="p-4">
@@ -683,9 +683,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4">Online passport service consultant</h3>
+              <h3 className="text-2xl font-bold mb-4">Passport Connect</h3>
               <p className="text-gray-300 mb-4">
-                Professional passport and document services in Ghaziabad. Your trusted partner for all official documentation needs.
+                Professional passport and document services in Ghaziabad, Noida, and Indirapuram. 
+                Your trusted partner for all official documentation needs.
                 <br />
                 <strong>Owner: Sanjay Singh</strong>
               </p>
@@ -726,14 +727,13 @@ export default function Home() {
                   <Phone className="h-4 w-4 mr-2" />
                   +91 9310469634
                 </p>
-                <p className="flex items-center">
-                  <Phone className="h-4 w-4 mr-2" />
-                  0120-4152845
-                </p>
                 <p className="flex items-start">
                   <MapPin className="h-4 w-4 mr-2 mt-1" />
-                  SC 125 Ground Floor<br />
-                  Shastri Nagar, Ghaziabad
+                  📍 Address: Indirapuram, Ghaziabad, Uttar Pradesh
+                </p>
+                <p className="flex items-center">
+                  <Globe className="h-4 w-4 mr-2" />
+                  🌐 Website: passportconnect.in
                 </p>
               </div>
             </div>
@@ -742,9 +742,9 @@ export default function Home() {
           <Separator className="my-8 bg-gray-700" />
           
           <div className="text-center text-gray-400">
-            <p>&copy; 2024 Online passport service consultant. All rights reserved.</p>
+            <p>&copy; 2024 Passport Connect. All rights reserved.</p>
             <p className="mt-2 text-sm">
-              Professional passport and document services in Ghaziabad, Shastri Nagar
+              Professional passport and document services in Ghaziabad, Noida, and Indirapuram
             </p>
           </div>
         </div>
